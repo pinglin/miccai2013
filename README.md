@@ -8,16 +8,16 @@ If you use the code, please cite the paper. Thank you.
 
 ## Install
 
-Compile the CUDA MEX-Files in the directory `/gpu`, see: [mex cuda setup](http://www.mathworks.co.uk/help/distcomp/create-and-run-mex-files-containing-cuda-code.html)
+Compile the CUDA MEX-Files in the directory `gpu`, see: [mex cuda setup](http://www.mathworks.co.uk/help/distcomp/create-and-run-mex-files-containing-cuda-code.html)
 
 In MacOS for example, you have to: 
 
-1. Copy mexopts.sh from the default path to `gpu/`
+1. Copy mexopts.sh from the default path to `gpu`
 2. Find the CUDA SDK header directory `/usr/local/cuda/samples/common/inc`
 
 In OSX, the `mexopts.sh` is in 
 
-`/Applications/MATLAB_R2013a.app/toolbox/distcomp/gpu/extern/src/mex/maci64/`
+`/Applications/MATLAB_R2013a.app/toolbox/distcomp/gpu/extern/src/mex/maci64`
 
 
 Depends on your CUDA SDK you may have to remove all 
