@@ -15,7 +15,7 @@ In MacOS for example, you have to:
 1. Copy mexopts.sh from the default path to `gpu`
 2. Find the CUDA SDK header directory `/usr/local/cuda/samples/common/inc`
 
-In OSX, the `mexopts.sh` is in 
+In OSX MATLAB R2013a, the `mexopts.sh` is in 
 
 `/Applications/MATLAB_R2013a.app/toolbox/distcomp/gpu/extern/src/mex/maci64`
 
