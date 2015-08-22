@@ -15,11 +15,10 @@ function StereoReconstHuberL1(left_img_file, right_img_file)
 % http://www.mathworks.co.uk/help/distcomp/create-and-run-mex-files-containing-cuda-code.html
 % 
 % In MacOS for example, you have to: 
-%   1. Copy the mexopts.sh from your Matlab system
-%   2. Set the path of nvcc 'setenv('MW_NVCC_PATH','/usr/local/CUDA/bin/nvcc')'
-%	3. Find the CUDA SDK header directory '/usr/local/cuda/samples/common/inc'
+%   1. In directory gpu/, copy mexopts.sh from the default path (i.e., /Applications/MATLAB_R2013a.app/toolbox/distcomp/gpu/extern/src/mex/maci64/mexopts.sh)
+%	2. Find the CUDA SDK header directory '/usr/local/cuda/samples/common/inc'
 %
-% Therefore to compile:
+% To compile:
 % mex -v -O -largeArrayDims -I/usr/local/cuda/samples/common/inc HuberL1CVPrecond_mex.cu
 %
 % Note that using -largeArrayDims is neccessary.
