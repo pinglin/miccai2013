@@ -2,7 +2,7 @@
 
 This repository maintains for the source code of the work
 
-Chang, P.-L., Stoyanov, D., Davison, A.: Real-time dense stereo reconstruction using convex optimisation with a cost-volume for image-guided robotic surgery. MICCAI 2013.
+* Chang, P.-L., Stoyanov, D., Davison, A.: Real-time dense stereo reconstruction using convex optimisation with a cost-volume for image-guided robotic surgery. MICCAI 2013.
 
 If you use the code, please cite the paper. Thank you.
 
@@ -18,8 +18,11 @@ In MacOS for example, you have to:
 Depends on your CUDA SDK you may have to remove all `-gencode=arch=compute_13,code=sm_13` in mexopts.sh
 
 To compile:
+
 `mex -v -O -largeArrayDims -I/usr/local/cuda/samples/common/inc HuberL1CVPrecond_mex.cu`
 
-In OSX, the mexopts.sh is in `/Applications/MATLAB_R2013a.app/toolbox/distcomp/gpu/extern/src/mex/maci64/`
+In OSX, the mexopts.sh is in 
+
+`/Applications/MATLAB_R2013a.app/toolbox/distcomp/gpu/extern/src/mex/maci64/`
 
 * **Note that using -largeArrayDims is neccessary.**
